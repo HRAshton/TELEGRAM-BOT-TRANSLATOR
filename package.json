@@ -1,11 +1,16 @@
 {
   "name": "telegram-bot-translator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "translitit-latin-to-mkhedruli-georgian": "^1.0.0"
   },
   "devDependencies": {
     "wrangler": "^3.0.0"
